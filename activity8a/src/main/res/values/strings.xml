@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Activity 8a</string>
+    <string name="application_for_employment">Application For Employment</string>
+    <string name="position_you_are_applying_for">Position You Are Applying For:</string>
+    <string name="date_available_for_work">Date Available for Work:</string>
+    <string name="desired_salary">Desired Salary:</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="last_name">Last Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="first_name">First Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="cell_phone">Cell Phone</string>
+    <string name="social_security_number">Social Security Number</string>
+    <string name="ss">SS-</string>
+    <string name="are_you_a_us_citizen">Are you a US Citizen?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="convicted_of_felony">Convicted of Felony?</string>
+    <string name="if_selected_for_employment_are_you_willing_to_submit_to_a_pre_employment_drug_screening_test">If selected for employment, are you willing to submit to a pre-employment drug screening test?</string>
 </resources>
