@@ -279,21 +279,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/sss"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/social_security_number" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/sss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/social_security_number" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editSSS"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:inputType="number"
-            android:hint="@string/ss"
-            android:maxLength="10" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editSSS"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:hint="@string/ss"
+                android:inputType="number"
+                android:maxLength="10" />
         </TableRow>
 
         <TableRow
@@ -368,17 +368,686 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/drugTest"
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
+                android:layout_width="250dp"
+                android:layout_height="65dp"
                 android:text="@string/if_selected_for_employment_are_you_willing_to_submit_to_a_pre_employment_drug_screening_test" />
 
             <androidx.appcompat.widget.AppCompatCheckBox
                 android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
                 android:layout_height="wrap_content"
                 android:text="@string/yes" />
 
         </TableRow>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/education"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding="8dp"/>
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/schoolName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="@string/school_name" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:text="@string/location" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/yearsAttended"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:text="@string/years_attended" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_gravity="center"
+                    android:text="@string/degree" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/major"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_gravity="center"
+                    android:text="@string/major" />
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:maxLines="1"/>
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:maxLines="1" />
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:maxLines="1"/>
+            </TableRow>
+        </TableLayout>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/others"
+                android:layout_width="176dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="match_parent"
+                android:text="@string/other_training_certifications_or_licenses_held" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editOthers"
+                android:layout_width="229dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/employment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/employment"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding="8dp"/>
+        </FrameLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/employer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editEmployer"
+                    android:layout_width="151dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/employer"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/datesEmployed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editDatesEmployed"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/dates_employed"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/workPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editWorkPhone"
+                    android:layout_width="151dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/work_phone"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/payRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editPayRate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pay_Rate"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editCity2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/city"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/state2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editState2"
+                    android:layout_width="151dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/state"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/zip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editZip2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/zip"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/position2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPosition2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Position"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/duties"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editDuties"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Duties Performed"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/supervisor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editSupervisor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/supervisors_name_and_title"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reasonLeft"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editReasonLeft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/reason_for_leaving"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/requestContact"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="@string/may_we_contact_them" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/yes" />
+
+        </TableRow>
+
+        <FrameLayout
+            android:id="@+id/frameLayout4"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/references"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/references"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding="8dp"/>
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="@string/name" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:text="@string/title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:text="@string/company" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_gravity="center"
+                    android:text="@string/phone"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+            </TableRow>
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:maxLines="1"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout5"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/acknowledgement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acknowledgement_and_authorization"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding="8dp"/>
+        </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/i_certify_that_all_the_answers_given_herein_are_true_and_complete_to_the_best_of_my_knowledge" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/i_authorize_investigation_of_all_statements_contained_in_this_application_for_employment_as_may_be_necessary_in_arriving_at_an_employment_decision" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/in_the_event_of_employment_i_understand_that_false_or_misleading_information_given_in_my_application_or_interview_s_may_result_in_discharge" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/signature"
+                android:layout_width="176dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/signature_of_applicant" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editSignature"
+                android:layout_width="229dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/date"
+                android:layout_width="176dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editDate"
+                android:layout_width="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"/>
+        </TableRow>
+
 
     </LinearLayout>
 </ScrollView>
