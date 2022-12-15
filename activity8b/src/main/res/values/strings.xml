@@ -1,3 +1,65 @@
 <resources>
     <string name="app_name">Activity 8b</string>
+    <string name="introducing_me">Introducing Me!</string>
+    <string name="book">Book</string>
+    <string name="food">Food</string>
+    <string name="color">Color</string>
+    <string name="animal">Animal</string>
+    <string name="rate_me">Rate me!</string>
+    <string name="my_exclusive_interview">My Exclusive Interview</string>
+    <string name="one_on_one">One on one:</string>
+    <string name="what_should_i_call_you">What should I call you?</string>
+    <string name="name">Name</string>
+    <string name="nickname">Nickname</string>
+    <string name="tell_me_your_favorites">Tell me your favorites.</string>
+    <string name="nickname_yung_totoo">Nickname (yung totoo.)</string>
+    <string name="what_is_your_current_status">What is your current status?</string>
+    <string name="seryoso_muna">(seryoso muna.)</string>
+    <string name="sigurado_ka_ba_dyan">(sigurado ka ba \'dyan?)</string>
+    <string name="single">Single</string>
+    <string name="in_a_relationship">In a relationship</string>
+    <string name="may_ka_text_ng_gud_am">May ka-text ng gud am.</string>
+    <string name="papunta_pa_lang_sa_exciting_part">Papunta pa lang sa exciting part.</string>
+    <string name="bitter">BITTER</string>
+    <string name="married">Married</string>
+    <string name="panget">Panget.</string>
+    <string name="others_please_don_t_specify">Others (please don\'t specify.)</string>
+    <string name="narda">Narda</string>
+    <string name="favorite_kmkz_song">Favorite KMKZ song?</string>
+    <string name="seek_yourself">Seek yourself.</string>
+    <string name="how_well_do_you_know_yourself">How well do you know yourself?</string>
+    <string name="what_is_your_most_embarrassing_moment">What is your most embarrassing moment?</string>
+    <string name="others_in_less_than_10_words_to_cut_the_drama">Others (in less than 10 words to cut the drama)</string>
+    <string name="this_or_that">This or That?</string>
+    <string name="turns_me_off">Turns Me Off</string>
+    <string name="turns_me_on">Turns Me On</string>
+    <string name="like">👍</string>
+    <string name="dislike">👎</string>
+    <string name="horror_movies">Horror Movies</string>
+    <string name="pineapples_on_pizza">Pineapples On Pizza</string>
+    <string name="gif_pronounced_as_jif">GIF pronounced as JIF.</string>
+    <string name="agree_or_disagree">Agree or Disagree?</string>
+    <string name="dogs_cats"><![CDATA[Dogs > Cats]]></string>
+    <string name="favorite_eheads_song">Favorite EHEADS song?</string>
+    <string name="kisapmata">Kisapmata</string>
+    <string name="which_superpowers_would_you_want_in_your_life">Which superpowers would you want in your life?</string>
+    <string name="invisibility">Invisibility</string>
+    <string name="choose_your_superpowers">Choose your superpowers!</string>
+    <string name="this_or_that_your_superpowers">This or That: Your SUPERPOWERS!</string>
+    <string name="teleport">Teleport</string>
+    <string name="time_travel">time travel</string>
+    <string name="immortality">immortality</string>
+    <string name="fireworks">fireworks</string>
+    <string name="farts">farts</string>
+    <string name="wish_bad_luck">wish bad luck</string>
+    <string name="wish_good_luck">wish good luck</string>
+    <string name="heart_stopper">heart stopper</string>
+    <string name="heart_breaker">heart breaker</string>
+
+    <string-array name="options">
+        <item>Mahal ko siya, kahit \'di niya ako mahal.</item>
+        <item>Mahal ko siya, pero as a friend lang.</item>
+        <item>Mahal ko pa rin siya, kahit hindi na niya ako mahal.</item>
+        <item>Others (specify in less than 10 words to cut the drama)</item>
+    </string-array>
 </resources>
