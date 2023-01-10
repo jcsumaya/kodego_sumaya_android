@@ -57,6 +57,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/registerEmail"
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:maxLines="1"
