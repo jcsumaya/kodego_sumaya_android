@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.snackbar.Snackbar
 import ph.kodego.sumaya.juan.activity9.databinding.GroceryItemBinding
 import ph.kodego.sumaya.juan.activity9.model.GroceryItem
 
@@ -35,7 +36,8 @@ class ItemAdapter(var items: ArrayList<GroceryItem>)
         }
 
         override fun onClick(p0: View?) {
-            TODO("Not yet implemented")
+            Snackbar.make(itemBinding.root, item.item,
+                Snackbar.LENGTH_SHORT).show()
         }
 
         fun bindGroceryItem(groceryItem: GroceryItem) {
